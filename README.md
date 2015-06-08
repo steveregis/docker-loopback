@@ -8,7 +8,7 @@ Build Docker Image.
 $ docker build -t loopback .
 ```
 
-Run slc loopback command.
+Run slc loopback command and create your app using loopback cli.
 
 ```sh
 $ docker-compose run --rm slc loopback
