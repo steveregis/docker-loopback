@@ -31,7 +31,30 @@ $ docker-compose run --rm slc loopback
    __'.___.'__
  ´   `  |° ´ Y `
 
-? What's the name of your application? (app)
+? What's the name of your application? (app) spike
+```
+
+After creating Loopback app, edit a docker-compose.yml working_dir directive wit created app name.
+
+```yaml
+slc: &defaults
+  build: loopback
+  volumes:
+    - .:/app
+  working_dir: /app/spike
+  entrypoint: ["slc"]
+
+server:
+  <<: *defaults
+  entrypoint: ["slc","run"]
+  ports:
+    - "3000:3000"
+```
+
+Now up server service.
+
+```sh
+$ docker-compose up server
 ```
 
 ## Licence
