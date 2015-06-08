@@ -1,6 +1,6 @@
 {
-  "name": "loopback-rest",
-  "description": "loopback-rest",
+  "name": "docker-loopback",
+  "description": "docker-loopback",
   "version": "0.0.1",
   "private": true,
   "scripts": {
