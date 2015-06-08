@@ -1,14 +1,6 @@
-# Docker Loopback (Experimental)
+# Docker Loopback
 
 ## Usage
-
-Make simlinks and directory in a docker cloned directory.
-
-```sh
-$ mkdir -p ./app/usr/local/lib
-$ ln -s /dist/app/node_modules .
-$ ln -s /dist/usr/local/lib/node_modules ./app/usr/local/lib
-```
 
 Build Docker Image.
 

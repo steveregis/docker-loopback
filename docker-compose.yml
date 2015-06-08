@@ -2,7 +2,7 @@ slc: &defaults
   image: loopback
   volumes:
     - .:/app
-  working_dir: /app/spike
+#  working_dir: /app/spike
   entrypoint: ["slc"]
 
 server:
