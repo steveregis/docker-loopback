@@ -88,7 +88,7 @@ Removing dockerloopback_npm_run_1...
 
 Edit `server/datasources.json` in app supplying MongoDB information.
 
-``json
+```json
 {
   "db": {
     "name": "db",
