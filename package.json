@@ -1,9 +1,0 @@
-{
-  "name": "docker-loopback",
-  "description": "docker-loopback",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  }
-}
