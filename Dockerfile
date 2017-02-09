@@ -7,7 +7,7 @@ RUN apt-get update && \
 
 WORKDIR /app
 
-RUN adduser --disabled-password --gecos '' --uid 1000 docker && \
+RUN adduser --disabled-password --gecos '' --uid 8888 docker && \
   adduser docker sudo && \
   echo 'docker ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
   chown -R docker:docker /app
